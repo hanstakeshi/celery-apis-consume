@@ -36,4 +36,4 @@ class Photo(models.Model):
         ordering = ['-created_on', 'title']
 
     def __str__(self):
-        return u'A'
+        return u'%s' % self.title
